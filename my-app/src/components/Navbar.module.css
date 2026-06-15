@@ -43,4 +43,8 @@
 
     padding: 0;
   }
+
+  .navItem:hover {
+    background-color: transparent
+  }
 }
