@@ -1,6 +1,6 @@
 .card {
   height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,9 @@
 }
 
 .video_container {
+  width: 100%;
   height: 90vh;
+  max-width: calc(100vh * 9/16);
   aspect-ratio: 9/16;
   position: relative;
 }
@@ -18,6 +20,7 @@
 .video {
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .info {
@@ -42,6 +45,15 @@
   }
 
   .video_container {
+    width: 100%;
+    height: 100%;
     aspect-ratio: auto;
+  }
+
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
   }
 }
