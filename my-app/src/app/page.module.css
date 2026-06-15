@@ -1,0 +1,16 @@
+.feed_container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.feed_container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .feed_container {
+    height: calc(100dvh - 3rem);
+  }
+}
