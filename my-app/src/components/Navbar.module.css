@@ -44,7 +44,12 @@
     padding: 0;
   }
 
+  .navItem {
+    padding: .8rem;
+    min-width: auto;
+  }
+
   .navItem:hover {
-    background-color: transparent
+    background-color: transparent;
   }
 }
